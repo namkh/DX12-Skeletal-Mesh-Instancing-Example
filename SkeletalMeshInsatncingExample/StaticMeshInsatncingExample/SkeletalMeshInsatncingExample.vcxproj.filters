@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Example">
+      <UniqueIdentifier>{9b8d28d9-a728-449a-be6d-e7c701ff83ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example\Common">
+      <UniqueIdentifier>{5a26d668-cf7f-473c-b495-d0d9f05c86fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example\Device">
+      <UniqueIdentifier>{8a15d78c-3b56-4b67-b289-e62064ec93b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example\Util">
+      <UniqueIdentifier>{8c6f76dc-3168-493f-a8fe-d3d9a6143a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example\Resources">
+      <UniqueIdentifier>{31639686-7e80-472d-9af8-11c93f9a1254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example\Object">
+      <UniqueIdentifier>{931701b0-f6d9-4436-9676-9eaab48c68dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example\Render">
+      <UniqueIdentifier>{aa106f99-a18c-49f8-9bf4-bac16cb547da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CoreEventManager.cpp">
+      <Filter>Example\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalTimer.cpp">
+      <Filter>Example\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Example\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxLoader.cpp">
+      <Filter>Example\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="SphericalCoordMovementCamera.cpp">
+      <Filter>Example\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Example</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Application.cpp">
+      <Filter>Example</Filter>
+    </ClCompile>
+    <ClCompile Include="DX12DeviceResource.cpp">
+      <Filter>Example\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Fence.cpp">
+      <Filter>Example\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandBuffers.cpp">
+      <Filter>Example\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandQueue.cpp">
+      <Filter>Example\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapChain.cpp">
+      <Filter>Example\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleShader.cpp">
+      <Filter>Example\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryContainer.cpp">
+      <Filter>Example\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleGeometry.cpp">
+      <Filter>Example\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceBuffers.cpp">
+      <Filter>Example\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Example\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleTexture.cpp">
+      <Filter>Example\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureContainer.cpp">
+      <Filter>Example\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialContainer.cpp">
+      <Filter>Example\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMaterial.cpp">
+      <Filter>Example\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObjectContainer.cpp">
+      <Filter>Example\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalAnimation.cpp">
+      <Filter>Example\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObject.cpp">
+      <Filter>Example\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleSkeleton.cpp">
+      <Filter>Example\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonContainer.cpp">
+      <Filter>Example\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimSequenceContainer.cpp">
+      <Filter>Example\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderItem.cpp">
+      <Filter>Example\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationUpdator.cpp">
+      <Filter>Example\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalMeshInstancingExample.cpp">
+      <Filter>Example</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoreEventManager.h">
+      <Filter>Example\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleAppBase.h">
+      <Filter>Example\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalSystemValues.h">
+      <Filter>Example\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalTimer.h">
+      <Filter>Example\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Defaults.h">
+      <Filter>Example\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx12.h">
+      <Filter>Example\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Example\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Example\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Example\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.h">
+      <Filter>Example\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxLoader.h">
+      <Filter>Example\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SphericalCoordMovementCamera.h">
+      <Filter>Example\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Application.h">
+      <Filter>Example</Filter>
+    </ClInclude>
+    <ClInclude Include="DX12DeviceResource.h">
+      <Filter>Example\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Fence.h">
+      <Filter>Example\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandBuffers.h">
+      <Filter>Example\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandQueue.h">
+      <Filter>Example\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapChain.h">
+      <Filter>Example\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleShader.h">
+      <Filter>Example\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryContainer.h">
+      <Filter>Example\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleGeometry.h">
+      <Filter>Example\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceBuffers.h">
+      <Filter>Example\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Example\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleTexture.h">
+      <Filter>Example\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureContainer.h">
+      <Filter>Example\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialContainer.h">
+      <Filter>Example\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMaterial.h">
+      <Filter>Example\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObjectContainer.h">
+      <Filter>Example\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="DX12DeviceResourceAccess.h">
+      <Filter>Example\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalAnimation.h">
+      <Filter>Example\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObject.h">
+      <Filter>Example\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonContainer.h">
+      <Filter>Example\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSkeleton.h">
+      <Filter>Example\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimSequenceContainer.h">
+      <Filter>Example\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderItem.h">
+      <Filter>Example\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationUpdator.h">
+      <Filter>Example\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalMeshInstancingExample.h">
+      <Filter>Example</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
