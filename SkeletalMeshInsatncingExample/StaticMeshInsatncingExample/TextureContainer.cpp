@@ -32,7 +32,7 @@ int TextureContainer::GetBindIndex(SimpleTexture2D* texture)
 	auto iterFind = m_textureDatas.find(texture->GetUID());
 	if (iterFind != m_textureDatas.end())
 	{
-		static_cast<int>(std::distance(m_textureDatas.begin(), iterFind));
+		return static_cast<int>(std::distance(m_textureDatas.begin(), iterFind));
 	}
 	return INVALID_INDEX_INT;
 }
